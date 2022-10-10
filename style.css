@@ -1,0 +1,244 @@
+.nav-atas .navbar-nav {
+  margin-right: 250px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-bawah{
+  margin-bottom: -20px;
+}
+
+.nav-bawah .navbar-nav {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-atas .nav-item {
+  padding-right: 40px;
+}
+
+.nav-bawah .nav-item {
+  padding-right: 20px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+body {
+  background-image: linear-gradient(to top right, #111111 0%, #232323 100%);
+  color: white;
+}
+
+.about .container .row .m-about2 {
+  margin-top: 100px;
+}
+
+.about .container .row .m-about1 {
+  margin-top: -40px;
+}
+
+.about .container .row .m-about2 h6 {
+  color: #ef4040;
+}
+
+.about .container .row .m-about2 h1 {
+  font-weight: 750;
+}
+
+.experience .row .col-7 .row .col-4 {
+  position: relative;
+  top: 100px;
+  left: 50%;
+  width: 240px;
+  height: 240px;
+  background-color: #1e1e1e;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 40px;
+  font-size: 11px;
+}
+
+
+.more {
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-top: -6px;
+  text-decoration: none;
+  color: #ef4040;
+}
+
+.more:hover {
+  color: #ef4040;
+}
+
+.experience .row .col-7 .row .col-4 h5 {
+  padding-top: 20px;
+}
+
+.experience .row .col-7 .row .col-4 p {
+  padding-top: 6px;
+}
+
+.experience .row .col-7 .row .c2 {
+  background-image: linear-gradient(to top left, #9f101a 0%, #d41e2c 100%);
+}
+
+.experience .row .col-7 {
+  background-color: #181818;
+}
+
+.experience .row {
+  height: 800px;
+}
+
+.experience .row .col-7 .row .row .col-4 {
+  position: relative;
+  top: 200px;
+  left: 400px;
+  width: 240px;
+  height: 240px;
+  background-color: #181818;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.experience h1 {
+  font-size: 90px;
+  font-weight: 700;
+  color: #ef4040;
+}
+
+.experience h2 {
+  font-weight: 700;
+  color: #ef4040;
+}
+
+.experience p {
+  font-weight: 300;
+}
+
+.experience .row .col-7 .row .row .col-3 .row {
+  width: 240px;
+  height: 110px;
+  background-color: #1e1e1e;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.experience .row .col-7 .row .row .col-3 .r2-1 {
+  position: relative;
+  top: 200px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.experience .row .col-7 .row .row .col-3 .r2-2 {
+  position: relative;
+  top: 200px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.experience .row .col-7 .row .row .col-3 .r3-1 {
+  position: relative;
+  top: 200px;
+  left: 465px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.experience .row .col-7 .row .row .col-3 .r3-2 {
+  position: relative;
+  top: 200px;
+  left: 465px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.ktk-atas{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+}
+
+
+.project{
+  padding-top: 0.1px;
+}
+
+.project .container .row .col-3 a{
+  margin-left: 60px;
+}
+
+.project .container .row .ktk {
+  width: 500px;
+  height: 400px;
+  background-color: #1e1e1e;
+  margin: 10px;
+}
+
+.project .container .col-6{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.project .container .ktk-awal{
+  padding-left: 60px;
+}
+
+
+.contact .container .pembungkus{
+  width: 1100px;
+  height: 300px;
+  background-color: #1e1e1e;
+  margin: 100px auto;
+  padding-left: 40px;
+}
+
+.contact .container .pembungkus h1{
+  font-weight: 800;
+}
+
+.contact .container .pembungkus p{
+  font-weight: 300;
+}
+
+
+footer{
+  width: 100%;
+  height: 70px;
+  background-color: #181818;
+}
+
+.btn-danger {
+  padding: 10px 30px;
+  border-radius: 0;
+  background-image: linear-gradient(to right, #9e101a 0%, #c41a27 100%);
+  letter-spacing: 2px;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-image: linear-gradient(to right, #e10f1d 0%, #d8081a 100%);
+}
+
+.bg {
+  height: 580px;
+  background-color: #181818;
+  margin-top: -960px;
+}
