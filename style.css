@@ -113,7 +113,7 @@ body {
 }
 
 @media only screen and (min-width: 800px) {
-  .bg-atas{
+  .bg-atas {
     height: 800px;
     background-color: #1e1e1e;
     width: 50%;
@@ -178,14 +178,21 @@ body {
   margin-left: 60px;
 } */
 
+@media only screen and (min-width: 700px) {
+  .project .container .ktk-atas .col-4 a {
+    margin-left: 160px;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .project .container .row .ktk .galeri {
     width: 380px;
     height: 200px;
     background-color: #1e1e1e;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
-  
+
   .project .container .row .ktk img {
     width: 300px;
     height: 180px;
@@ -199,10 +206,19 @@ body {
     background-color: #1e1e1e;
     margin: 10px;
   }
-  
+
   .project .container .row .ktk img {
     width: 400px;
     height: 280px;
+  }
+
+  .project .container .row .ktk .kata {
+    margin-left: 0.1px;
+  }
+
+  .project .container .col-6 {
+    margin-top: 5px;
+    margin-bottom: 20px;
   }
 }
 
@@ -217,15 +233,6 @@ body {
   width: 400px;
   height: 280px;
 } */
-
-.project .container .row .ktk .kata {
-  margin-left: 0.1px;
-}
-
-.project .container .col-6 {
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
 
 .contact .container .pembungkus {
   width: 1100px;
