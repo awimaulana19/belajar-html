@@ -203,10 +203,6 @@ body {
 } */
 
 @media only screen and (max-width: 700px) {
-  .project .container .ktk-atas .col-4 a {
-    margin-left: 20px;
-  }
-
   .project .container .row .ktk .galeri {
     /* width: 380px;
     height: 200px; */
