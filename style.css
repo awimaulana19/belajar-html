@@ -1,4 +1,4 @@
-.teks-coba{
+.teks-coba {
   font-size: 22px;
   font-weight: 700;
 }
@@ -46,7 +46,7 @@ body {
     width: 370px;
     height: 500px;
   }
-  
+
   /* .teks-coba{
     margin: auto;
   } */
@@ -100,6 +100,10 @@ body {
     width: 240px;
     height: 240px;
   }
+
+  .experience .baris2 .col-4 {
+    margin-top: 10px;
+  }
 }
 
 .experience .baris1 .col-lg-4 {
@@ -139,16 +143,12 @@ body {
   } */
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
   .bg-atas {
     height: 870px;
     background-color: #181818;
     width: 50%;
     margin-top: -2250px;
-  }
-
-  .experience .baris2 .col-4 {
-    margin-top: 10px;
   }
 }
 
@@ -325,7 +325,7 @@ footer {
   } */
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
   .bg {
     height: 550px;
     background-color: #181818;
