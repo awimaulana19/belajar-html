@@ -1,24 +1,25 @@
+.teks-coba{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-color {
+  background-color: #1a1919;
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+
 .nav-atas .navbar-nav {
   margin-right: 250px;
   font-size: 14px;
   font-weight: 500;
 }
 
-.nav-bawah {
-  margin-bottom: -20px;
-}
-
-.nav-bawah .navbar-nav {
-  font-size: 14px;
-  font-weight: 500;
-}
-
 .nav-atas .nav-item {
   padding-right: 40px;
-}
-
-.nav-bawah .nav-item {
-  padding-right: 20px;
 }
 
 .navbar {
@@ -31,6 +32,10 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
+  .about {
+    margin-top: 50px;
+  }
+
   .about .container .row .m-about1 {
     margin-bottom: 20px;
     display: flex;
@@ -44,13 +49,18 @@ body {
 }
 
 @media only screen and (min-width: 700px) {
+  .about {
+    margin-top: 50px;
+    margin-bottom: -60px;
+  }
+
   .about .container .row .m-about1 img {
     width: 400px;
     height: 600px;
   }
 
   .about .container .row .m-about2 {
-    margin-top: 150px;
+    margin-top: 200px;
   }
 }
 
@@ -60,11 +70,6 @@ body {
 
 .about .container .row .m-about2 h1 {
   font-weight: 750;
-}
-
-.experience {
-  margin-top: 100px;
-  padding-top: 10px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -82,6 +87,11 @@ body {
 }
 
 @media only screen and (min-width: 700px) {
+  .experience {
+    margin-top: 100px;
+    padding-top: 100px;
+  }
+
   .experience .baris1 .col-lg-4 {
     width: 240px;
     height: 240px;
@@ -127,10 +137,14 @@ body {
 
 @media only screen and (min-width: 800px) {
   .bg-atas {
-    height: 800px;
+    height: 870px;
     background-color: #181818;
     width: 50%;
-    margin-top: -2150px;
+    margin-top: -2250px;
+  }
+
+  .experience .baris2 .col-4 {
+    margin-top: 10px;
   }
 }
 
@@ -180,13 +194,6 @@ body {
   color: #ef4040;
 }
 
-.ktk-atas {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  padding-left: 50px;
-  padding-top: 10px;
-}
-
 /* .project .container .row .col-3 a {
   margin-left: 60px;
 } */
@@ -196,16 +203,16 @@ body {
     margin-left: 20px;
   }
 
-  .project .container .ktk-atas .col-8{
-    margin-left: -40px;
-  }  
-
   .project .container .row .ktk .galeri {
     /* width: 380px;
     height: 200px; */
     background-color: #1e1e1e;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+
+  .project {
+    margin-top: -40px;
   }
 
   .project .container .row .ktk img {
@@ -215,6 +222,13 @@ body {
 }
 
 @media only screen and (min-width: 700px) {
+  .ktk-atas {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-top: 70px;
+  }
+
   .project .container .ktk-atas .col-4 a {
     margin-left: 160px;
   }
@@ -270,7 +284,7 @@ body {
     padding-left: 40px;
   }
 
-  footer p{
+  footer p {
     font-size: 15px;
   }
 }
@@ -283,7 +297,6 @@ body {
     margin: 100px auto;
     padding-left: 40px;
   }
-
 }
 
 footer {
@@ -316,6 +329,6 @@ footer {
   .bg {
     height: 550px;
     background-color: #181818;
-    margin-top: -920px;
+    margin-top: -858px;
   }
 }
